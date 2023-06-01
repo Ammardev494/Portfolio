@@ -1,0 +1,19 @@
+.c{
+
+    border: 1px solid red;
+        /*    t   l   b   r     */
+    padding: 0px 0px 0px 0px ;
+
+
+    background-color:#bbbbbb;
+    background-color:#ededed;
+    
+    background-color: #333333;
+    background-color: #CCCCCC;
+    
+    background-color: #9933CC;
+    background-color: #9966CC;
+
+    background-color: #CC0066;
+    background-color: #CC6699;
+} 

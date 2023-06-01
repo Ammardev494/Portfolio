@@ -1,0 +1,355 @@
+.header{
+    background-color: #f2f2f2; 
+    height: 150px; 
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    height: 145px;
+}
+
+.logo{
+    height: 60%;
+    /* border: 1px solid red; */
+    border-radius: 100%;
+    margin: 30px 30px 0px 0px;
+    float: left;
+}
+
+.company {
+    /* border: 1px solid red; */
+    margin: 1px;
+    width: auto;
+}
+.company h1{
+    margin-bottom: 0px;
+}
+.company spanb{
+    color: #5392bd;
+}
+.company span{
+    padding-left: 140px;
+}
+/* header buttons style  */
+.logins{
+    float: inline-start;
+    float: inline-end;
+    float: right;
+}
+
+.logins span1{
+    color:  #8d8d8d;
+    padding:20px;
+}
+.logins a{
+    padding: 0px 10px 10px;
+    margin-top: 10px;
+    background-color: #fef3da;
+    text-decoration:none;
+    margin: -2px;
+    color:#3d79a7;
+    /* border-bottom-left-radius: 50%; */
+    /* border-bottom-right-radius: 50%; */
+
+}
+
+.logins span{
+    margin-top: 10px;
+    padding: 0px 10px 10px;
+    background-color: #fef3da;
+    margin: -2px;
+    color:#3d79a7;
+}
+.logins a:hover{
+    background-color: #f0e7d1;
+   
+}
+
+.language{
+    border: 1px solid rgb(180, 180, 180) ; 
+    height: 30px;  
+    padding: 10px 10px 0px; 
+    float: right;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #8d8d8d;
+}
+
+.language select{
+margin-left: 60px;
+}
+
+.navbar{
+    background-color:rgb(93, 163, 213); 
+    height: 55px; 
+    color: white;
+    border: 0.1px solid rgb(93, 163, 213);
+}
+.navbar div{
+    /* width: 100%; */
+    height: inherit;
+    margin-top: 19px;
+    margin-left: 10%;
+}
+.navbar div a{
+    padding: 18px 20px ;
+    margin: 0px 1% 0px;
+    /* border: 1px solid #c4a25f; */
+    background-color:rgb(93, 163, 213); 
+    text-decoration:none;
+    color: white;
+}
+
+.navbar div a:hover{
+    background-color: #3b7aa5;
+}
+.search{
+    border: 1px solid rgb(180, 180, 180) ; 
+    /* height: 30px;   */
+    padding: 10px 10px 10px; 
+    margin:  -10px 20% 0px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    float: right;
+}
+.search select{
+    margin-left: 60px;
+}
+.search input{
+    border: 0px solid #c4a25f;
+
+}
+
+.Aa{
+    margin:  0px -640px 0px  0px;
+    color: #206392;
+    border-radius: 5px;
+    float: right;
+}
+.Aa span1{
+    padding-right: 5px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.body{
+    width: 80%;
+    margin: 0px 10%;
+    
+}
+
+.bg{
+    padding: 20px 10px;
+}
+
+.bgimg{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(212, 210, 210);
+
+}
+.bgimglayer{
+    /* position: absolute; */
+    position: relative; /* 0  */
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -150%); /* 0  */
+    background-color: rgb(255, 255, 255); 
+    height: 100px;
+    opacity: 0.7;
+    padding: 20px;
+}
+.bgimglayer h1{
+    color: #59adda;
+}
+
+.bgpic{
+    float: left;
+    border: 1px solid rgb(182, 182, 180);
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/* inworking */
+.piclayeru{
+    float: left;
+    border: 1px solid rgb(240, 240, 240);
+    background-color: rgb(119, 128, 179);
+}
+
+.piclayer{
+    border: 1px solid green;
+    background-color: blueviolet;
+}
+
+.body p{
+    text-align: left;
+    padding: 0px 10px  0px;
+    color: #878787;
+    margin-top: -120px;
+
+}
+
+.optionbox{
+    /* border: 1px solid green;  */
+    width: 80%;  
+    margin: auto; 
+    height: 45rem; 
+}
+
+.optionbox h2{
+    margin: inherit;
+    color: #59adda;
+    padding-left: 10px;
+}    
+
+.optionbox .leftsidebar{
+    width: 50%; float: left; 
+}
+.optionbox .rightsidebar{
+    width: 50%; float: right;
+}
+
+.cetegory{
+    background-color: rgb(254, 243, 218); 
+    color: rgb(179, 174, 161); 
+    border: 1px solid rgb(179, 174, 161); 
+    border-radius: 10px; 
+    padding-left: 20px; 
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(179, 174, 161); 
+}
+a:hover{
+    color: #3b7aa5;
+}
+/*
+    border: 1px solid green;
+    background-color: blueviolet;
+*/
+
+.bottom{
+    width: 80%; margin: auto;
+}
+.bottomleft{
+    width: 70%; 
+    float: left;   
+    height:800px;
+}
+.bottomleftbanner{
+    width: 95%; 
+    border-radius: 10px; 
+    padding-left: 2%;    
+    border: 10px solid #b4c6d2; 
+    background-color:  #f9fbfc;  
+    height: 200px;
+}
+.bottomleftbanner img{
+    float:right; 
+    margin-right: 30%; 
+    height: 60%;
+}
+.bottomleftpic{
+    width: 99%;
+}
+
+.bottomleftpic a img:hover{
+    border: 1px solid #aec1ff;
+}
+
+.bottomleftpic img{
+    width: 100%; 
+    border-radius: 10px; 
+    margin: auto;
+}
+.bottomleftbannerpic{
+    height: 90%; 
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.bottomleftbannerbody .arrow_l{
+    height:20px; 
+    width: 20px; 
+    border-radius: 10px; 
+    background-color: rgb(31, 87, 125); 
+    margin-left: 10px; 
+    float: left; 
+}
+
+.bottomleftbannerbody .arrow_r{
+    height:20px; 
+    width: 20px; 
+    border-radius: 10px; 
+    background-color: rgb(31, 87, 125); 
+    margin-right: 10px; 
+    float: right;
+
+}
+.bottomright{
+    width: 30%; 
+    float: right;  
+    background-color:  rgb(255, 255, 255); 
+    height: 800px;
+}
+
+.bottomrightbanner{
+    width: 80%; 
+    height: auto;  
+    margin: auto;
+    border: 2px solid #6eb5e7;  
+    border-radius: 10px;  
+    color: rgb(0, 0, 0);
+}
+.bottomrightbanner img:hover {
+    width: 90.5%;     
+}
+
+.bottomleftbannerbody{
+    height: 30px;  
+    background-color:  #6eb5e7; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    text-align: center; 
+    color: white;  
+    padding-top: 10px;
+}
+
+.footer{
+    background-color: #e7f5ff; 
+    height: 150px;  
+    text-align: center; 
+}
+.footer .ftab{
+    padding: 10px 5px;
+    color: #bdbaba ;
+}
+
+.footer .ftab:hover{
+    color: #6eb5e7 ;
+
+}
+.footer img{
+    margin: 1px; 
+    border-radius: 3px;
+}
+
+.footer img:hover{
+    border-radius: 30%;
+}
+
+.footer p{
+ text-align: center; 
+ color:#d3d3d3;
+}

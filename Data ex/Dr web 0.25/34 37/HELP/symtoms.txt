@@ -1,0 +1,51 @@
+Tell us a bit about yourself and how you’re feeling for suggested next steps and common treatment plans.
+
+
+How long have you had chest pain?
+Select one answer
+
+Less than 30 minutes
+
+Between 30 minutes and 8 hours
+
+More than 8 hours
+
+
+You must enter one or more symptoms.
+Enter more symptoms for more accurate results, starting with your most severe symptom. Look through a list of common symptoms.
+
+
+Feedback
+Is the information on this site helpful?
+Your comment
+Optional
+Feedback
+Send feedback
+
+Please note that the information provided by this tool is provided solely for educational purposes and is not a qualified medical opinion. This information should not be considered advice or an opinion of a doctor or other health professional about your actual medical state, and you should see a doctor for any symptoms you may have. If you are experiencing a health emergency, you should call your local emergency number immediately to request emergency medical assistance.
+
+
+
+doctor 
+	time
+	symtoms
+	Schedule and meel
+	care or any madecine you used
+	wait_process
+	Patient_priorities
+	medicine time
+	recovery: normal/ fast
+	tables/injections/serips
+	dite plan
+	your buget: 3days/1week/2week/1moonth
+
+	print/verify/
+	buy online
+
+
+
+
+
+
+
+

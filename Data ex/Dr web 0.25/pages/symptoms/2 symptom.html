@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Doctor - Symptoms - ino </title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body style="background-image: url(../../assets/img/symptoms_pics/bg2.jpg);">
+
+    
+    <div class="sym_b_selector"><!-- box -->
+        <div><!-- head -->
+            <h2 style="margin-left: -10%;">            
+                <a href="#">
+                <spanc>
+                  <spanw>Robot</spanw>
+                  <spanj>Doctor</spanj>
+                </spanc>
+              </a>
+            </h2>
+            <p>Identify possible conditions and treatment related to your symptoms.Add as many symptoms as you can for the most accurate results. Add your symptoms. <br> Please try to add more than one symptom.</p>
+        </div>
+        
+        <div><!-- body  -->
+            <p>What are your symptoms? </p>
+            <div>
+                <h2>Symptoms</h2>
+                <input class="symptom_search btn_nn" type="text" placeholder="Type your main symptom" id="searchElement" onkeyup="searchok()">
+                <img class="sym_img" src="images/mobile doctor.jpg" alt="">
+                <!-- <p>Added symptoms: </p> -->
+                <div class="searchbox">
+                    <ul id="list-ul" style="display:table-row;">
+                    <li class="lists"><input type="checkbox" name="" id=""> fever</li>
+                    <li class="lists"> <input type="checkbox" name="" id=""> flu</li>
+                    <li class="lists"> <input type="checkbox" name="" id=""> cough</li>
+                    <li class="lists"> <input type="checkbox" name="" id=""> Head Ache</li>
+                    <li class="lists"> <input type="checkbox" name="" id=""> Back Pain</li>
+                    </ul>
+                  </div>
+                 <script>
+                  function searchok() {
+                    
+                    var inputFilter = document.getElementById('searchElement').value.toUpperCase();
+                    var ul = document.getElementById('list-ul')
+                    
+                    var li = ul.getElementsByTagName('li');
+                    // console.log(li);
+                    
+                    for (let i = 0; i < li.length; i++) {
+                            var text = li[i].innerHTML || li[i].textContent;
+                            if(text.toUpperCase().indexOf(inputFilter) > -1){
+                              li[i].style.display = '';
+            
+                            } else{
+                              li[i].style.display = 'none';
+                            }  
+                    }
+            
+            
+            
+                  }
+                 </script>
+            
+              </div>
+          </div>
+    </div>
+    <div class="sym_b_f"><!-- foot -->
+        <hr>
+        <br>
+        <a href="1 info.html">
+            <input class="sym_b_f_btn_b" type="button" value="Back" >
+        </a>
+        <a href="3 sym_answers.html">
+            <input class="sym_b_f_btn_n" type="button" value="Next" >
+        </a>
+        <pre>                              2/8</pre>
+
+    </div>            
+</body>
+</html>

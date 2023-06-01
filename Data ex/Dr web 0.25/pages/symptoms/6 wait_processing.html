@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web Doctor - Symptoms - ino </title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <!-- redrict page  -->
+    <meta http-equiv="refresh" content="7; url='8 generate_medicine.html'" />
+</head>
+<body style="background-image: url(../../assets/img/symptoms_pics/bg10.jpg);">
+    <div class="sym_b_selector"><!-- box -->
+        <div><!-- head -->
+            <h2 style="margin-left: -10%;">            
+                <a href="#">
+                <spanc>
+                  <spanw>Robot</spanw>
+                  <spanj>Doctor</spanj>
+                </spanc>
+              </a>
+            </h2>
+            <p>Please wait, Your request in processing... <br> Your medicine report will begin in a moment.</p>           
+        </div>
+        
+
+        <div><!-- body  -->
+            <div>
+                <h2 id="above">Your requested report is on the way!</h2>
+                <!-- timer  -->
+                <h1 id="count"> 5 </h1>
+                <img class="sym_img"  src="images/mobile doctor.jpg" alt="" style="margin-right: 50%; ">
+                <br><br><br><br><br><br>
+                <p>If you notice any broken links, please do not hesitate to contact one of our staff members. We will take action immediately.
+                    <br>
+                <a target="_blank" href="https://wa.me/message/A4MULE5OOCMXF1"><u style="opacity: 0.5;"> Credits: <strong>Ammar Shafiq</strong></u></a>    
+                </p>
+                    </div>
+        </div>
+        
+    </div>
+    <br>
+    <div class="sym_b_f"><!-- foot -->
+        <hr>
+        <a href="5 schedule_meel.html">
+            <input class="sym_b_f_btn_b" type="button" value="Back">
+        </a>
+
+        <a href="#">
+            <input class="sym_b_f_btn_c" type="button" value="Report" style="color:#CC0066;" disabled>
+        </a>
+
+        <a href="#">
+            <input class="sym_b_f_btn_n" type="button" value="re-request" style="width: auto;" disabled>
+        </a>
+        <!-- <pre>                              6/8</pre> -->
+
+    </div>            
+
+
+<script>
+    let counter = 5;
+    let count = document.getElementById('count');
+    let above = document.getElementById('above');
+    setInterval(() => {
+        counter--;
+        if(counter>=0){
+            count.innerHTML = counter;
+        }
+        if(counter==-1){
+            count.innerHTML = 'Submitted succesfully';
+            above.innerHTML = '';
+        
+        }   
+    }, 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+Robot Doctor
+Client name: Ammar             no: 00231            date: 12.15.2022
+                   
+DESCRIPTION		Code	Name	Qty	Use per-Day
+Rest and drink plenty
+of fluids to keep from
+becoming dehydrated.	
+			050	Aspirin	9	(1) TDS
+			131	NsAIDS	6	(1) BDS
